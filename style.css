@@ -1,0 +1,37 @@
+#main {
+    width: 50%;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#img-div {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+    margin: 0 auto;
+}
+
+#headline {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #main {
+        width: 100%;
+    }
+}
